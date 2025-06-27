@@ -1,0 +1,227 @@
+{
+  "id": "7cd6e400-fd43-44b1-9e45-43071b184eed",
+  "version": "2.0",
+  "name": "Testing-Login",
+  "url": "https://www.overleaf.com/login?",
+  "tests": [{
+    "id": "e3837f32-568c-4ebe-9334-d2efb949ac5d",
+    "name": "Login Exitoso1",
+    "commands": [{
+      "id": "6e7fd7b4-60d9-4f3f-aeab-352b767b3924",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.overleaf.com/login?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0299366-223e-4ea8-b02a-960c9b448a04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69b1d44b-58c2-4979-b638-fee45196e8c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b73bc32-dc5d-445a-960b-8fe686cde8ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "beverly.jlgc@gmail.com"
+    }, {
+      "id": "41fd7c7b-402b-4ca3-aadb-46ec13219cce",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "353cad59-fd80-47d6-a53a-e22f6200a685",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "manza4738"
+    }, {
+      "id": "7d4ab1ee-6b95-4d4f-92ed-3a581276bd43",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0bd11f49-a755-447d-ac16-fa98e13dcd9d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,221)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e00e846-bac7-4734-b09c-56c8c34476d5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-link",
+      "targets": [
+        ["css=.btn-link", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Essential cookies only')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7ebc8aa8-9754-4060-aabb-df13abe9a2c9",
+    "name": "Login Exitoso",
+    "commands": [{
+      "id": "31d0f0dc-fbec-4f9b-8d55-b5ba894403e4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.overleaf.com/login?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00491dae-df68-4916-aa7c-4dec6d17e830",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87bdbe8b-ac6a-4d56-9047-ee6e8ce832ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31a27c8e-094f-4085-917b-1a12cc5335c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "beverly.jlgc@gmail.com"
+    }, {
+      "id": "085582d9-29c5-4259-ab5e-5fd99030dfeb",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3914874-0757-42aa-b7f0-aabf5ae34886",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/form/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "manza4738"
+    }, {
+      "id": "4755ff71-edbf-4834-9d0c-a625f3197501",
+      "comment": "",
+      "command": "click",
+      "target": "css=.actions > .btn",
+      "targets": [
+        ["css=.actions > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/form/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c51b2bd-32cb-4749-bfec-88ac1f642617",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(16) > .dash-cell-name",
+      "targets": [
+        ["css=tr:nth-child(16) > .dash-cell-name", "css:finder"],
+        ["xpath=//div[@id='project-list-root']/div/main/div[2]/div/div/div[3]/div[4]/div/table/tbody/tr[16]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[16]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'TPF_g5_v2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5c2f72e3-90aa-4f14-b434-e0c706aa46ab",
+    "name": "Login Exitoso2",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "37467161-9309-4b52-bc25-9321c9717987",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.overleaf.com/", "https://www.overleaf.com/login?"],
+  "plugins": []
+}
