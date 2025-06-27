@@ -1,0 +1,696 @@
+{
+  "id": "af41ef2d-21db-47dd-aa8a-a58a01d95a0a",
+  "version": "2.0",
+  "name": "Testing-Login",
+  "url": "https://www.kaggle.com/account/login?phase=emailSignIn&returnUrl=%2F",
+  "tests": [{
+    "id": "efd1b658-8b04-4f83-916b-33b7dd5e095e",
+    "name": "Login 1 Exitoso",
+    "commands": [{
+      "id": "bc651351-5a64-4890-a34a-a8741f54c5cd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kaggle.com/account/login?phase=emailSignIn&returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcfa4a26-6a00-4e27-9eb5-2902acc64154",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db6f91b5-f150-48b4-a4c8-087abbffdcb4",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81985704-50f3-4bf4-950b-b1114826b911",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "bever_10@hotmail.com"
+    }, {
+      "id": "ab06a549-e6f3-4f79-be34-c3f3cf18a0bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f7eb9fc-b7d7-4582-9966-4ec5ff177dcf",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "bever_90"
+    }, {
+      "id": "0f2f6d36-cd99-40a8-9ef5-7874c2026c46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-ifkGpL:nth-child(1)",
+      "targets": [
+        ["css=.sc-ifkGpL:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inicia sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76fec5a3-25cf-4b23-b226-46fc5b74af53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-bvbptB:nth-child(4)",
+      "targets": [
+        ["css=.sc-bvbptB:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/div/div/div[3]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/work/discussions')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dad4a37d-3ddb-4adc-8329-91ff836feb81",
+    "name": "Login 2 contraseña incorrecta",
+    "commands": [{
+      "id": "f53cb76e-dc26-4e41-a7ac-2944e7eb6191",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kaggle.com/account/login?phase=emailSignIn&returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8a6824a-fafe-4831-bf2d-99e969c3797a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8b2fded-91d9-4fb5-bc8e-524f7217eec6",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ca648ab-a203-4332-a990-06e9c55ca56a",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "bever_10@hotmail.com"
+    }, {
+      "id": "831b8727-6f21-457b-8b28-48b45b0d600e",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "343d026e-a263-4551-993c-edccaa69fec3",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "pera1234"
+    }, {
+      "id": "3192e1f2-2d52-4524-a96a-28c3c7ada861",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-ifkGpL:nth-child(1)",
+      "targets": [
+        ["css=.sc-ifkGpL:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inicia sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04349857-0b7f-460b-a023-ddac52a5ab2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-bvbptB:nth-child(4)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3f971a73-e43a-4f32-ad72-1150652b4c12",
+    "name": "Login 3 campos vacios",
+    "commands": [{
+      "id": "04bfdc11-8bf8-44e6-b5e4-fb8644812ba2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kaggle.com/account/login?phase=emailSignIn&returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2ec007c-4c9c-4640-90cd-86b827f49d29",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59c2b6d2-7f9c-4082-923f-a1caab33a70a",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbee6d86-abd7-4bd7-b460-d714261ec3fd",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce8806c6-8092-46d8-a3bd-2b9e862448ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68005a26-8822-4609-9e87-9c183eb6bbb0",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "785d7c90-1cd9-48a6-98d1-04738e6fe1ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-ifkGpL:nth-child(1)",
+      "targets": [
+        ["css=.sc-ifkGpL:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inicia sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cea86acd-9293-4445-9773-2b5d4ab62f10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-bvbptB:nth-child(4)",
+      "targets": [
+        ["css=.sc-bvbptB:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/div/div/div[3]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/work/discussions')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "738d36c2-392b-4c3e-ac63-0b22649ec637",
+    "name": "Login 4 Inyección de datos",
+    "commands": [{
+      "id": "c3bc8412-0a44-4465-965d-79b7e9b840fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kaggle.com/account/login?phase=emailSignIn&returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9f02bfd-6b24-4cf0-a642-2c58ea6eceb1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dced123f-4ccf-4e1c-a31f-4e9684bfcf5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f6db18e-a806-4e02-8e07-099e56b28499",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "#3"
+    }, {
+      "id": "b6aa63cf-05a8-40bf-a9ef-45a5f2d13017",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60d4ccb4-980f-4719-be4a-fd5bd1c1497c",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "m1m2"
+    }, {
+      "id": "edd46a0f-1e85-4b3f-92ae-e575fd710c18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-ifkGpL:nth-child(1)",
+      "targets": [
+        ["css=.sc-ifkGpL:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inicia sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ab14130-1e53-404d-b5cd-9b1630b810c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-bvbptB:nth-child(4)",
+      "targets": [
+        ["css=.sc-bvbptB:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/div/div/div[3]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/work/discussions')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c6649abb-0ce8-4400-a095-9b16a893e079",
+    "name": "Login 5 Repetido",
+    "commands": [{
+      "id": "5861ec91-ea30-4007-9dcb-995d71c2d454",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kaggle.com/account/login?phase=emailSignIn&returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adb0d2a0-9454-4dab-8d7b-a124132c01cb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04785940-4943-40c3-82ea-87af227ac282",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8af1f82b-9160-4f49-9d60-0bec8676f4bd",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "bever_10@hotmail.com"
+    }, {
+      "id": "9e3abe1d-e5ba-478f-b4ce-3169a170719f",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3499a1a8-1c9d-4871-9026-3fb90313c4ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "bever_90"
+    }, {
+      "id": "e1a0499a-3a94-4511-87d0-e19e6284cf17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-ifkGpL:nth-child(1)",
+      "targets": [
+        ["css=.sc-ifkGpL:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inicia sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac1238b2-ccb2-476f-9463-cf3e8c37b891",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-bvbptB:nth-child(4)",
+      "targets": [
+        ["css=.sc-bvbptB:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/div/div/div[3]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/work/discussions')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53708fc2-6c3b-40cb-94c9-8509bb4ae767",
+      "comment": "pausa de 2 seg para que cargue",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "2000"
+    }, {
+      "id": "6d03fbfc-b034-4394-85b2-ea61757a9e0e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kaggle.com/account/login?phase=emailSignIn&returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e62f533-9f87-43ec-9de7-d8ac4efb569b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4d1c3d6-4e3f-4560-b2c7-1a0ecbe41dc6",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f68a027-ebe1-404a-8572-178ed54dfccc",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "bever_10@hotmail.com"
+    }, {
+      "id": "e7a59707-6b64-41ca-a426-70ab4caad50d",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6be3d476-a028-431b-b7b7-bee3d5b8a6e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "bever_90"
+    }, {
+      "id": "1d1339f8-506d-4bdc-9ace-9c703df69840",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-ifkGpL:nth-child(1)",
+      "targets": [
+        ["css=.sc-ifkGpL:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inicia sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b9a3eb6-8626-4987-81e1-f3fb82cf99d5",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dc46afe2-28dc-4c99-aedd-f949fc4bc330",
+    "name": "Login 5 error correo",
+    "commands": [{
+      "id": "257c439e-48b4-427f-b643-d9a8dbc29538",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.kaggle.com/account/login?phase=emailSignIn&returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb75b14d-638e-4407-9f32-c02f97820b73",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ca9905a-fbb1-4ca8-980f-aea7ae47080d",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fe027b3-faba-4653-8e31-f8f2d365551c",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r0:",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["name=email", "name"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "bever_10@@@@hotmail.com"
+    }, {
+      "id": "d04bb912-809c-4745-a68b-8e9483f64834",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6b0f334-11e1-4aa3-8448-11db43c1b9ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r1:",
+      "targets": [
+        ["id=:r1:", "id"],
+        ["name=password", "name"],
+        ["css=#\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id=':r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "bever_90"
+    }, {
+      "id": "2566985b-f1c3-400d-9b22-e17951eb2975",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-ifkGpL:nth-child(1)",
+      "targets": [
+        ["css=.sc-ifkGpL:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/form/div/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inicia sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e873b2c-cb37-4513-ad42-d49acbba8d7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-bvbptB:nth-child(4)",
+      "targets": [
+        ["css=.sc-bvbptB:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='site-content']/div[2]/div/div/div/div/div/div[3]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/work/discussions')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d05a9726-3100-40ee-a204-931939c707e3",
+    "name": "LoginTests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["efd1b658-8b04-4f83-916b-33b7dd5e095e", "dad4a37d-3ddb-4adc-8329-91ff836feb81", "3f971a73-e43a-4f32-ad72-1150652b4c12", "738d36c2-392b-4c3e-ac63-0b22649ec637", "dc46afe2-28dc-4c99-aedd-f949fc4bc330"]
+  }],
+  "urls": ["https://www.kaggle.com/account/login?phase=emailSignIn&returnUrl=%2F"],
+  "plugins": []
+}
